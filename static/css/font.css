@@ -1,12 +1,11 @@
-
 /* Default font for body */
 body {
-    font-family: "Lora", serif !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 /* secondary font */
 .secondary-font, #secondary-font {
-    font-family: "Lora", serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* primary font */
@@ -16,5 +15,18 @@ body {
 
 /* Default font */
 .default-font, #default-font {
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-serif {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.font-serif-regular {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Header fonts */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Alata", sans-serif;
 }
