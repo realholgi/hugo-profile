@@ -71,10 +71,23 @@ header .navbar.animate {
 /* hero */
 
 #hero {
-    min-height: 100vh;
+    min-height: 60vh;
     line-height: 2rem;
     max-width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
+
+#hero .container {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#hero .row {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 #hero .content.animate {
     animation: fade-left 1s ease-out;
 }
@@ -195,8 +208,25 @@ header .navbar.animate {
 
 
 /* about me */
+#about {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#about .container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#about .row {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
 #about h3 {
     color: var(--text-secondary-color) !important;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #about .image img {
@@ -237,6 +267,8 @@ header .navbar.animate {
     font-weight: 500;
     opacity: 0.9 !important;
     line-height: 1.7rem !important;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #about a {
@@ -514,6 +546,7 @@ header .navbar.animate {
 }
 
 #achievements img {
+    width: 14%;
     border-radius: 0.7rem;
 }
 
