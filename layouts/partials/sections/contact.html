@@ -26,7 +26,7 @@
                     <div class="text-center pt-3">
                         <a 
                             href='{{ if .Site.Params.contact.btnLink }}
-                                    {{ .Site.Params.contact.btnLink | default "#" }}
+                                    {{ .Site.Params.staticPath }}/{{ .Site.Params.contact.btnLink | default "#" }}
                                   {{ else }}
                                     mailto:{{ .Site.Params.contact.email }}
                                   {{ end }}'
