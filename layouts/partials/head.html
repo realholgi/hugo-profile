@@ -3,17 +3,10 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
 
-<!-- <base href="{{ .Site.BaseURL }}"> -->
-
 <link rel="icon" href="{{ .Site.Params.favicon | default "{{ .Site.Params.staticPath }}/fav.png" }}" type="image/gif">
 
 <!-- font configuration -->
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
-
-<!-- Internal templates -->
-{{ template "_internal/google_analytics.html" . }}
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
 
 <!-- stylesheets -->
 {{- if (or (eq .Site.Params.UseBootstrapCDN true) (eq .Site.Params.UseBootstrapCDN "css")) -}}
